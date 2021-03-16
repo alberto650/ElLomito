@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animación</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="header" id="inicio">
+       
+        <div class="contenedor head">
+            <h1 class="titulo">Casa Rural El Lomito</h1>
+            <p class="copy">Una ventana al Nublo</p>
+        </div>
+        
+    </header>
+    <main>
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">El Lomito</h2>
+            <div class="contenedor-servicio">
+                <img src="img/checklist.svg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Ubicación</h3>
+                        <p>  En el paraje natural del Parque Nacional del Nublo, bajo la sombra del Roque Nublo y del Roque Bentaiga se encuentra la casa rural El Lomito.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Equipamiento de la casa</h3>
+                        <p> La casa rural El Lomito está pensada para disfrutar al máximo de la experiencia, por ello está completamente equipada, destacando su gran barbacoa, su horno, su aireacondicionado y su calefacción.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Reservas</h3>
+                        <p> Luego de visitar nuestro calendario solo te queda reservar las fechas por medio de Instagram</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galería</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/2.jpg" class="img-galeria" alt="Hola">
+                    <img src="img/3.jpg" class="img-galeria" alt="">
+                    <img src="img/4.jpg" class="img-galeria" alt="">
+                    <img src="img/62.jpg" class="img-galeria" alt="">
+                    <img src="img/IMG_2105.jpg" class="img-galeria" alt="">
+                    <img src="img/IMG_2184.jpg" class="img-galeria" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </div>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Nuestro Calendario</h2>
+            <div id="calendar-wrap">
+                <header>
+                    <div class="calendar__prev" id="prev-month"></div>
+                    <h1>Marzo 2021</h1>
+                    <div class="calendar__next" id="next-month"></div>
+                </header>
+            
+                <div id="calendar">
+                    <ul class="weekdays">
+                        <li>Lunes</li>
+                        <li>Martes</li>
+                        <li>Miércoles</li>
+                        <li>Jueves</li>
+                        <li>Viernes</li>
+                        <li>Sábado</li>
+                        <li>Domingo</li>
+                    </ul>
+        
+        
+                        <!-- Days in current month -->
+                        <!-- Row #1 -->
+        
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">1</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>
+                            </div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">2</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>
+                            </div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">3</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>
+                            </div> 
+                        </li>
+                        <li class="day">
+                            <div class="date">4</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">5</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>
+                            </div>   					
+                        </li>
+                        <li class="day">
+                            <div class="date">6</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>
+                            </div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">7</div>  
+                                  <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>
+                            </div>  
+                        </li>
+                    </ul>
+        
+                        <!-- Row #2 -->
+        
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">8</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">9</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">10</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>
+                            </div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">11</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>
+                            </div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">12</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>
+                            </div>  					
+                        </li>
+                        <li class="day">
+                            <div class="date">13</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>
+                            </div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">14</div>    					
+                        </li>
+                    </ul>
+        
+                        <!-- Row #3 -->
+        
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">15</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">16</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">17</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">18</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">19</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>
+                            </div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">20</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>
+                            </div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">21</div>  
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>
+                            </div> 
+                        </li>
+                    </ul>
+        
+                        <!-- Row #4 -->
+        
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">22</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">23</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">24</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">25</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">26</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>
+                            </div>	
+                        </li>
+                        <li class="day">
+                            <div class="date">27</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>
+                            </div>  					
+                        </li>
+                        <li class="day">
+                            <div class="date">28</div>  
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>
+                            </div> 
+                        </li>
+                    </ul>
+
+                      <!-- Row #5 -->
+        
+                      <ul class="days">
+                        <li class="day">
+                            <div class="date">29</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">30</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">31</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date"></div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date"></div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date"></div>   					
+                        </li>
+                        <li class="day">
+                            <div class="date"></div>   
+                        </li>
+                    </ul>
+                            
+        
+                </div><!-- /. calendar -->
+            </div><!-- /. wrap -->
+            <div id="calendar-wrap">
+                <header>
+                    <div class="calendar__prev" id="prev-month"></div>
+                    <h1>Abril 2021</h1>
+                    <div class="calendar__next" id="next-month"></div>
+                </header>
+            
+                <div id="calendar">
+                    <ul class="weekdays">
+                        <li>Lunes</li>
+                        <li>Martes</li>
+                        <li>Miércoles</li>
+                        <li>Jueves</li>
+                        <li>Viernes</li>
+                        <li>Sábado</li>
+                        <li>Domingo</li>
+                    </ul>
+        
+        
+                        <!-- Days in current month -->
+                        <!-- Row #1 -->
+        
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date"></div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date"></div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date"></div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">1</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>                     
+                            </div>     					
+                        </li>
+                        <li class="day">
+                            <div class="date">2</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>                     
+                            </div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">3</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>                     
+                            </div>     					
+                        </li>
+                        <li class="day">
+                            <div class="date">4</div>  
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>                     
+                            </div>  
+                        </li>
+                    </ul>
+        
+                        <!-- Row #2 -->
+        
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">5</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">6</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">7</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">8</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">9</div>  					
+                        </li>
+                        <li class="day">
+                            <div class="date">10</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>                     
+                            </div>      					
+                        </li>
+                        <li class="day">
+                            <div class="date">11</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>                     
+                            </div>     					
+                        </li>
+                    </ul>
+        
+                        <!-- Row #3 -->
+        
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">12</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>                     
+                            </div>     					
+                        </li>
+                        <li class="day">
+                            <div class="date">13</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">14</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">15</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">16</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">17</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">18</div>  
+                              
+                        </li>
+                    </ul>
+        
+                        <!-- Row #4 -->
+        
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">19</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">20</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">21</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">22</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">23</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">24</div>   					
+                        </li>
+                        <li class="day">
+                            <div class="date">25</div>   
+                        </li>
+                    </ul>
+                             <!-- Row #5 -->
+        
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">26</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">27</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">28</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">29</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">30</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date"></div>   					
+                        </li>
+                        <li class="day">
+                            <div class="date"></div>   
+                        </li>
+                    </ul>
+                            
+        
+                </div><!-- /. calendar -->
+            </div><!-- /. wrap -->
+            <div id="calendar-wrap">
+                <header>
+                    <div class="calendar__prev" id="prev-month"></div>
+                    <h1>Mayo 2021</h1>
+                    <div class="calendar__next" id="next-month"></div>
+                </header>
+            
+                <div id="calendar">
+                    <ul class="weekdays">
+                        <li>Lunes</li>
+                        <li>Martes</li>
+                        <li>Miércoles</li>
+                        <li>Jueves</li>
+                        <li>Viernes</li>
+                        <li>Sábado</li>
+                        <li>Domingo</li>
+                    </ul>
+        
+        
+                        <!-- Days in current month -->
+                        <!-- Row #1 -->
+        
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date"></div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date"></div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date"></div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date"></div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date"></div>   					
+                        </li>
+                        <li class="day">
+                            <div class="date">1</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">2</div>  
+                               
+                        </li>
+                    </ul>
+        
+                        <!-- Row #2 -->
+        
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">3</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">4</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">5</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">6</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">7</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>                     
+                            </div>   					
+                        </li>
+                        <li class="day">
+                            <div class="date">8</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>                     
+                            </div>     					
+                        </li>
+                        <li class="day">
+                            <div class="date">9</div> 
+                            <div class="event">
+                                <div class="event-desc">
+                                    Ocupado
+                                </div>                     
+                            </div>     					
+                        </li>
+                    </ul>
+        
+                        <!-- Row #3 -->
+        
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">10</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">11</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">12</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">13</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">14</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">15</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">16</div>  
+                                
+                        </li>
+                    </ul>
+        
+                        <!-- Row #4 -->
+        
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">17</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">18</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">19</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">20</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">21</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">22</div>   					
+                        </li>
+                        <li class="day">
+                            <div class="date">23</div>   
+                        </li>
+                    </ul>
+                              <!-- Row #5 -->
+        
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">24</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">25</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">26</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">27</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">28</div>    					
+                        </li>
+                        <li class="day">
+                            <div class="date">29</div>   					
+                        </li>
+                        <li class="day">
+                            <div class="date">30</div>   
+                        </li>
+                    </ul>
+                      <!-- Row #4 -->
+        
+                      <ul class="days">
+                        <li class="day">
+                            <div class="date">31</div>    					
+                        </li>
+                        
+                    </ul>
+        
+                </div><!-- /. calendar -->
+            </div><!-- /. wrap -->
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Casa Rural El Lomito</h2>
+                    <p>Una pequeña casa en el paraiso canario</p>
+                </div>
+                <div class="social-media">
+                   
+                
+                    <a href="https://www.instagram.com/lomitoshouse/" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>
