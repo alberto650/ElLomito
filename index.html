@@ -3,83 +3,230 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animación</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página web completa</title>
     <link rel="stylesheet" href="estilos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
 </head>
-<body>
-    
-    <header class="header" id="inicio">
-       
-        <div class="contenedor head">
-            <h1 class="titulo">Casa Rural El Lomito</h1>
-            <p class="copy">Una ventana al Nublo</p>
+
+<body class="hidden">
+    <div class="centrado" id="onload">
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+    </div>
+    <header>
+        <nav id="nav" class="nav1">
+            <div class="contenedor-nav">
+                <div class="logo">
+                    <img src="img/CR-5.png" alt="">
+                </div>
+               
+                <div class="icono" id="open">
+                    <span>&#9776;</span>
+                </div>
+            </div>
+        </nav>
+        <div class="textos">
+            <h1>Rural Houses</h1>
+            <h2>Las Huertas El Lomito</h2>
         </div>
-        
     </header>
     <main>
-        <section class="services contenedor" id="servicio">
-            <h2 class="subtitulo">El Lomito</h2>
-            <div class="contenedor-servicio">
-                <img src="img/checklist.svg" alt="">
-                <div class="checklist-servicio">
-                    <div class="service">
-                        <h3 class="n-service"><span class="number">1</span>Ubicación</h3>
-                        <p>  En el paraje natural del Parque Nacional del Nublo, bajo la sombra del Roque Nublo y del Roque Bentayga se encuentra la casa rural El Lomito.</p>
+        <section class="team contenedor" id="equipo">
+            <h3>Places to visit</h3>
+            <p class="after">Get to know the most endearing places of our island</p>
+            <div class="card">
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/ventana del nublo.webp" alt="">
                     </div>
-                    <div class="service">
-                        <h3 class="n-service"><span class="number">2</span>Equipamiento de la casa</h3>
-                        <p> La casa rural El Lomito está pensada para disfrutar al máximo de la experiencia, por ello está completamente equipada, destacando su gran barbacoa, su horno, su aireacondicionado y su calefacción.</p>
+                    <div class="texto-team">
+                        <h4>Window of the Nublo</h4>
+                        <p><a href="https://goo.gl/maps/rBNnyUiUsPshjpky7">Google Maps</a></p>
                     </div>
-                    <div class="service">
-                        <h3 class="n-service"><span class="number">3</span>Reservas</h3>
-                        <p> Luego de visitar nuestro calendario solo te queda reservar las fechas por medio de Instagram</p>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/pueblo de Tejeda.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Town of Tejeda</h4>
+                        <p><a href="https://goo.gl/maps/qrf88wiYrstue7cj6">Google Maps</a></p>                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/roque_nublo-gran_canaria_1.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Roque Nublo</h4>
+                        <p><a href="https://goo.gl/maps/Kftu4bZ1jNvazNEk6">Google Maps</a></p>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/Pinturas-Rupestres-de-las-Cuevas-Pintadas-de-la-Sierra-de-la-Giganta-2.jpg.webp" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Galdar Painted Caves</h4>
+                        <p><a href="https://goo.gl/maps/xgpuNRSgQz2kwxKE8">Google Maps</a></p>                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/Dunas .jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Maspalomas Dunes</h4>
+                        <p><a href="https://goo.gl/maps/uSsQR342xZQnFeTU8">Google Maps</a></p>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/Cenobio-de-Valerón-1.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4> Valeron Monastery</h4>
+                        <p><a href="https://goo.gl/maps/46T3PCJRANZGFUTA8">Google Maps</a></p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="gallery" id="galeria">
-            <div class="contenedor">
-                <h2 class="subtitulo">Galería</h2>
-                <div class="contenedor-galeria">
-                    <img src="img/2.jpg" class="img-galeria" alt="Hola">
-                    <a href="https://goo.gl/maps/HFU2RY5XMjq91oZ86"> <img src="img/3.jpg" class="img-galeria" alt=""></a>
-                    <img src="img/3.jpg" class="img-galeria" alt="">
-                    <img src="img/4.jpg" class="img-galeria" alt="">
-                    <img src="img/62.jpg" class="img-galeria" alt="">
-                    <img src="img/IMG_2105.jpg" class="img-galeria" alt="">
-                    <img src="img/IMG_2184.jpg" class="img-galeria" alt="">
+        <section class="team contenedor" id="equipo">
+            <h3>Experiences</h3>
+            <p class="after">Embark on an unforgettable experience</p>
+            <div class="card">
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/astronomía-android.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Astronomy</h4>
+                        <p><a href="https://www.astrogc.com/index-es.html#mc">Google Maps</a></p>
+                    </div>
                 </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/bici.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Bike rental</h4>
+                        <p><a href="https://www.free-motion.com/en/gran-canaria/bikes">Google Maps</a></p>                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/barranquismo.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Canyoning</h4>
+                        <p><a href="https://volaood80.com">Google Maps</a></p>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/cafe-gourmet.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Coffee Tasting</h4>
+                        <p><a href="https://goo.gl/maps/b2VWC8FFmfdK5UvM6">Google Maps</a></p>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/delfin.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Dolphin watching</h4>
+                        <p><a href="https://www.tripadvisor.es/AttractionProductReview-g187471-d12468964-Dolphin_and_Whales_watching_cruise_from_Puerto_Rico_de_Gran_Canaria-Gran_Canaria_C.html">Google Maps</a></p>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/disfrutando-paseo-camello-maspalomas.jpg.webp" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Camel ride</h4>
+                        <p><a href="https://www.civitatis.com/es/maspalomas/paseo-camello-dunas-maspalomas/?_gl=1*kzvblb*_up*MQ..*_ga*NTU5NjEzNTAxLjE2NjU1NzA0NjA.*_ga_QJQ54CTKPM*MTY2NTU3MDQ1OS4xLjEuMTY2NTU3MDQ2OS4wLjAuMA..*_ga_216706797*MTY2NTU3MDQ1OS4xLjAuMTY2NTU3MDQ2OS4wLjAuMA..&gclid=Cj0KCQjwy5maBhDdARIsAMxrkw3ubOOJFbEgj0pwj3bgCaSrSEsoPUPrAUdTa8iIvALPjlDLaoljauEaApFTEALw_wcB&gclsrc=aw.ds#travelerGallery">Google Maps</a></p>
+                    </div>
+                </div>
+                
             </div>
         </section>
-        <div class="imagen-light">
-            <img src="img/close.svg" alt="" class="close">
-            <img src="" alt="" class="agregar-imagen">
-        </div>
-        <section class="contenedor" id="expertos">
-            <h2 class="subtitulo">Nuestro Calendario</h2>
-      
+        <section class="team contenedor" id="equipo">
+            <h3>Restaurant and Supermarket</h3>
+            <p class="after">Try our gastronomy in Tejeda</p>
+            <div class="card">
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/bar roq nub.jpeg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Roque Nublo Restaurant</h4>
+                        <p><a href="https://goo.gl/maps/7V37jrvvcWzmfmhS9">Google Maps</a></p>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/asador-grill-el-almendro.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>The Almond Tree Restaurant</h4>
+                        <p><a href="https://goo.gl/maps/J6VhJx46wBzfRL6JA">Google Maps</a></p>                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/restaurante-grill-la.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Grill La Cumbre Restaurant</h4>
+                        <p><a href="https://goo.gl/maps/j12aTuSD8bgpnMVZA">Google Maps</a></p>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/dulceria.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Nublo candy store</h4>
+                        <p><a href="https://goo.gl/maps/E169oRyZVHaVeb4y9">Google Maps</a></p>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/SPAR-Tejeda-1.jpeg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Spar Supermarkets</h4>
+                        <p><a href="https://goo.gl/maps/HRJvJjuBgyhVJ5M6A">Google Maps</a></p>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/oficina_turismo_20.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Tourist Office</h4>
+                        <p><a href="https://goo.gl/maps/qLWugHTA2PxSyFGw9">Google Maps</a></p>
+                    </div>
+                </div>
+                
+            </div>
         </section>
     </main>
+    <footer id="contacto">
+        <div class="footer contenedor">
+            <div class="marca-logo">
+                <img src="img/CR-5.png" alt="">
+            </div>
+            <div class="iconos">
+                <i ><a href="https://www.instagram.com/lomitoshouse/" class="fab fa-instagram"></a></i>
+               
 
-    <footer id="footer">
-        <div class="contenedor footer-content">
-                <div class="contact-us">
-                    <h2 class="brand">Casa Rural El Lomito</h2>
-                    <p>Una pequeña casa en el paraiso canario</p>
-                </div>
-                <div class="social-media">
-                   
-                
-                    <a href="https://www.instagram.com/lomitoshouse/" class="social-media-icon">
-                        <i class='bx bxl-instagram' ></i>
-                    </a>
-                </div>
-        </div>
-        <div class="line"></div>
+            </div>
+            <p>A place to disconnect</p>
+        </div> 
+
     </footer>
-    <script src="js/menu.js"></script>
-    <script src="js/lightbox.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filtro.js"></script>
 </body>
 </html>
